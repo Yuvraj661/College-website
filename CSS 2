@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),#000),url(eduford_img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    
+    position: relative;
+   
+    
+    
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+
+}
+.logo img{
+    margin-top:20px ;
+}
+.nav-text{
+    display: flex;
+    margin-top: 20px;
+    
+   
+   
+}
+.nav-text ul li{
+    margin: 10px;
+    list-style: none;
+   
+    
+}
+.nav-text ul a{
+    transition: 0.5s;
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.nav-text ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: aliceblue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-text ul li:hover::after{
+    width: 100%;
+}
+.banner-text{
+    font-size: xx-large;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#about-text{
+    padding: 70px 20px;
+}
+
+.img img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    
+}
+.ab-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ab-realtext{
+    flex-basis: 40%;
+    font-size: xx-large;
+}
+.ab-realtext p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.btn{
+   
+    padding: 20px;  
+    border: 2px solid black;
+    position: relative;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+.btn:hover{
+    
+    border: none;
+    
+    background-color: red;
+    transition: 1s;
+}
+footer{
+    padding: 70px 20px;
+    text-align: center;
+}
+@media(max-width:700px) {
+    .banner-text{
+        font-size: medium;
+    }
+    .banner-text p{
+        font-size: 12px;
+    }
+    .logo{
+        flex-wrap: wrap;
+    }
+    .logo img{
+        
+        width: 100px;;
+    }
+    .nav-text ul li {
+        font-size: 12px;
+    }
+    .banner-text h1{
+        margin-bottom: 13px;
+    }
+    .ab-text{
+        flex-direction: column;
+    }
+    .img img{
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+        
+    }
+}
+#blog{
+    padding: 70px 20px;
+}
+
+.num{
+    display: inline-block;
+}
+
+.blogmain{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.blogmain img{
+
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.oru{
+    padding: 20px;
+    width: 50%;;
+}
+.oru p{
+    color: gray;
+}
+.blogtext{
+    flex-basis: 32%;
+}
+.blogtext h3{
+    text-align: center;
+    padding: 7px;
+    color: white;
+    background-color: red;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.blogtext div{
+    color: gray;
+    display: flex;
+    padding: 7px;
+    justify-content: space-between;
+}
+@media(max-width:700px){
+    
+    .blogmain{
+        flex-direction: column;
+    }
+    .blogmain img{
+        width: 100%;
+    }
+    .oru{
+        text-align: center;
+        padding: 20px;
+        width: 80%;;
+    }
+}
+
+#comment{
+    padding: 70px 20px;
+    width: 50%;
+}
+.border{
+    border: 2px solid rgb(221, 213, 213);
+    height: 60vh;
+}
+.border-text h3{
+    padding: 20px;
+}
+.comment-form{
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.comment-form input{
+    background-color: rgba(128, 128, 128, 0.284);
+    margin-left:10px;
+   
+    width: 20%;
+    margin-bottom: 20px;
+}
+.comment-form textarea{
+    margin-left: 10px;
+    background-color: rgba(128, 128, 128, 0.284);
+}
+
+.border-text button{
+    margin-top: 20px;
+    margin-left: 10px;
+width: 30%;
+}
+@media(max-width:700px){
+    #comment{
+        
+        width: 100%;
+    }
+}
+.location{
+    padding: 70px;
+}
+.location iframe{
+    width: 100%;
+}
+.Contact-text{
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.Contact-text div{
+    margin: 20px 20px 0px 20px;
+}
+.Contact-text small{
+    margin-left: 20px;
+}
+.form{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+.form input{
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+.form textarea{
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+@media(max-width:700px) {
+    .Contact-text{
+        flex-direction: column;
+    }   
+}
