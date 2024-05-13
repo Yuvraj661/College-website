@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <section class="banner">
+        
+        <div class="logo">
+            <img src="eduford_img/logo.png" alt="">
+            <div class="nav-text">
+                <ul><li><a href="index.html">Home</a> </li></ul>
+                <ul><li><a href="about.html">About</a></li></ul>
+                <ul><li><a href="courses.html">Course</a></li></ul>
+                <ul><li><a href="blog.html">Blog</a></li></ul>
+                <ul><li><a href="contact.html">Contact</a></li></ul>
+            </div>
+        </div>
+
+        <div class="banner-text">
+            <h1>About US</h1>
+            
+        </div>
+    </section>
+   
+    <section id="about-text">
+        <div class="ab-text">
+            <div class="ab-realtext">
+                <h1>We are the world's largest 
+                university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia commodi ex ratione pariatur vitae consectetur cupiditate neque tempore id tenetur voluptatum, earum repellat rerum numquam natus minus expedita voluptatibus facere quaerat sunt voluptate?</p>
+                <div class="button">
+                    <p><a class="btn" href="#"><span></span>Explore Now</a></p>
+                </div>
+            </div>
+            <div class="img">
+                <img src="eduford_img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer id="About-us">
+    <div class="head-text">
+        <h3>About us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci nostrum sed nulla ab ducimus dolorem delectus.</p>
+    </div>
+</footer>
+</body>
+</html>
