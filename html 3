@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="courses.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <section class="banner">
+        
+        <div class="logo">
+            <img src="eduford_img/logo.png" alt="">
+            <div class="nav-text">
+                <ul><li><a href="index.html">Home</a> </li></ul>
+                <ul><li><a href="about.html">About</a></li></ul>
+                <ul><li><a href="courses.html">Course</a></li></ul>
+                <ul><li><a href="blog.html">Blog</a></li></ul>
+                <ul><li><a href="contact.html">Contact</a></li></ul>
+            </div>
+        </div>
+    </section>
+
+     
+
+        <div class="banner-text">
+            <h1>Contact Us</h1>
+
+            
+        </div>
+        
+    </section>
+    
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14008.49243502847!2d77.36689595!3d28.6260722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1713599460697!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="Contact-text">
+    <div class="text">
+        <div><h4>Xyz Road, Abc Building</h4></div>
+      <small>Bangalore, Karnataka, IN</small>
+    
+      <div class="phone"><h4>70700656</h4></div>
+      <small>Mon to Sat</small>
+      <div class="email"><h4>abc@gmail.com</h4></div>
+      <small>sfsafas</small>
+
+    </div>
+ <form action="formhandler.php" class="form">
+    <input type="text" name="name" placeholder="Enter Name">
+    <input type="text" name="email" placeholder="Enter Email">
+    <input type="text" name="subject" placeholder="Enter subject">
+    <textarea rows=10 name="message" cols="50" id=""  placeholder="Your comment"></textarea>
+    <button class="btn">Submit</button>
+ </form>
+</section>
+    
+
+
+
+
+
+<footer id="About-us">
+    <div class="head-text">
+        <h3>About us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci nostrum sed nulla ab ducimus dolorem delectus.</p>
+    </div>
+   
+</footer>
+</body>
+</html>
